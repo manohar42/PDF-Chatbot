@@ -15,8 +15,11 @@ The first run builds the index; later runs simply reload it for instant answers.
 ## 🗂 Repository layout
 .
 ├── data/ # ← place your PDF files here
+
 ├── faiss_store/ # ← auto-generated vector index (index.faiss + index.pkl)
+
 ├── main.py # backend utilities & optional CLI
+
 ├── ui.py # Streamlit front-end
 
 
