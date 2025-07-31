@@ -13,7 +13,7 @@ Conversational question-answering over your own PDF notes using **OpenAI**, **La
 The first run builds the index; later runs simply reload it for instant answers.
 
 ## 🗂 Repository layout
-.
+
 ├── data/ # ← place your PDF files here
 
 ├── faiss_store/ # ← auto-generated vector index (index.faiss + index.pkl)
