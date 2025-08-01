@@ -1,7 +1,3 @@
-Here’s the complete **README.md**—you can copy & paste this straight into your GitHub repo:
-
----
-
 # PDF Chatbot
 
 Chat with your PDFs using Retrieval-Augmented Generation (RAG).
