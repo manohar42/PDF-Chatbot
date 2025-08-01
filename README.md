@@ -14,13 +14,13 @@ The first run builds the index; later runs simply reload it for instant answers.
 
 ## 🗂 Repository layout
 
-├── data/ # ← place your PDF files here
-
-├── faiss_store/ # ← auto-generated vector index (index.faiss + index.pkl)
-
-├── main.py # backend utilities & optional CLI
-
-├── ui.py # Streamlit front-end
+pdf-chatbot/
+├── data/ # ← Drop your PDFs here
+├── faiss_store/ # ← Auto-generated FAISS index
+├── main.py # ← Backend logic and optional CLI
+├── ui.py # ← Streamlit-based web UI
+├── requirements.txt
+└── .env (optional) # ← Store your OpenAI API key
 
 
 ## ⚙️ Requirements
